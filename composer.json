@@ -1,0 +1,27 @@
+{
+  "name": "azurre/php-event-dispatcher",
+  "version": "0.1",
+  "description": "EventDispatcher Component",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "keywords": ["event", "dispatcher"],
+  "require": {
+    "php": ">=7.2.0",
+    "psr/event-dispatcher": "^1.0"
+  },
+  "authors": [
+    {
+      "name": "Alex Milenin",
+      "email": "admin@azrr.info"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Azurre\\EventDispatcher\\": "src/"
+    }
+  },
+  "homepage": "https://github.com/azurre/php-event-dispatcher",
+  "support": {
+    "issues": "https://github.com/azurre/php-event-dispatcher/issues"
+  }
+}
